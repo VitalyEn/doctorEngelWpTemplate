@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Doctor Engel</title>
-
-    <!-- Подключаем стили проекта -->
-    <link rel="stylesheet" href="css/app.min.css">
     <link href="https://allfont.ru/allfont.css?fonts=lora" rel="stylesheet" type="text/css" />
     <?php
         wp_head();
@@ -187,6 +184,9 @@
             </ul>
         </nav>
     </footer>
+    <?php
+        wp_footer();
+    ?>
 </body>
 
 </html>
