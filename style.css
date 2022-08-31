@@ -7,7 +7,7 @@ Theme Name: Engel
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local("Oxigen"), url(../fonts/Oxigen-Regular.ttf) format("ttf"), url(../fonts/oxigenregular.woff) format("woff")
+    src: local("Oxigen"), url(assets/fonts/Oxigen-Regular.ttf) format("ttf")
 }
 
 @font-face {
@@ -15,7 +15,7 @@ Theme Name: Engel
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: local("Oxigen"), url(../fonts/Lora-Regular.ttf) format("ttf"), url(../fonts/LoraRegular.woff) format("woff")
+    src: local("Oxigen"), url(assets/fonts/Lora-Regular.ttf) format("ttf"), url(assets/fonts/LoraRegular.woff) format("woff")
 }
 
 html {
