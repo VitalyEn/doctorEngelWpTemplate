@@ -198,7 +198,7 @@ ul {
 
 @media (min-width:768px) {
     .page-header__wrapper {
-        background-image: url(../images/dest/header.jpg)
+        background-image: url(assets/images/dest/header.jpg)
     }
 }
 
@@ -638,7 +638,7 @@ ul {
 @media (min-width:768px) {
     .page-footer {
         height: 378px;
-        background-image: url(../images/dest/footer.png)
+        background-image: url(assets/images/dest/footer.png)
     }
 }
 
