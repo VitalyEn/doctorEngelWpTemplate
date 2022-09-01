@@ -6,7 +6,9 @@
             <button class="button form__button ">Submit</button>
         </form>
         <nav class="footer-nav ">
-            <a class="footer__logo ">Доктор Энгель</a>
+            <div class="footer__logo">
+                <?php the_custom_logo();?>
+            </div>
             <ul class="footer-nav__list list-style ">
                 <li class="footer-nav__item footer-nav__item--active ">
                     <a>Главная</a>
