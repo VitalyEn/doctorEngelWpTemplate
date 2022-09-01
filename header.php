@@ -19,7 +19,10 @@
             <nav class="main-nav ">
                 <button class="main-nav__toggle " type="button " aria-label="Открыть меню ">
                 </button>
-                <a class="page-header__logo ">Доктор Энгель</a>
+                <div class="page-header__logo">
+                    <?php the_custom_logo();?>
+                </div>
+                
                 <ul class="main-nav__list list-style ">
                     <li class="main-nav__item main-nav__item--active ">
                         <a>Главная</a>
